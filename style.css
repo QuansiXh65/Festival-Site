@@ -39,7 +39,7 @@
    }
    
    .topnav a:hover {
-    background-color: rgb(245, 109, 59);
+    background-color: rgb(247, 136, 96);
     color: black;
    }
    
@@ -50,7 +50,8 @@
     }
 
     .footer {
-        background-color: lightblue;
+        background-color: rgb(238, 92, 39);
+        padding: 1px;
     }
 
     .img1 {
@@ -59,7 +60,20 @@
         margin: 20px;
     }
 
+    .img2 {
+        float: right;
+        border: 4px rgb(247, 72, 8) solid;
+        margin: 20px;
+    }
+
     #div1 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin: 40px;
+    }
+
+    #div2 {
         font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
