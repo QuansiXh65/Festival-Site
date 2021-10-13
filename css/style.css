@@ -39,7 +39,7 @@
    }
    
    .topnav a:hover {
-    background-color: rgb(245, 109, 59);
+    background-color: rgb(247, 136, 96);
     color: black;
    }
    
@@ -50,7 +50,8 @@
     }
 
     .footer {
-        background-color: lightblue;
+        background-color: rgb(238, 92, 39);
+        padding: 1px;
     }
 
     .img1 {
@@ -59,16 +60,37 @@
         margin: 20px;
     }
 
-    #div1 {
+    .img2 {
+        float: right;
+        border: 4px rgb(247, 72, 8) solid;
+        margin: 20px;
+    }
+
+    .div1 {
         font-size: 20px;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
         margin: 40px;
     }
 
-    /*kaartjes pagina vanaf hier*/
+    .div2 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin: 40px;
+    }
 
-.form{
-    justify-content: center;
-    text-align: center;
-}
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+     
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+     
+        color: rgb(53, 52, 51);
+        background-color: rgb(238, 92, 39);
+     
+        margin-top: 80px;
+    }
+        
+     
